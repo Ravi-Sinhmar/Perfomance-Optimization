@@ -1,7 +1,57 @@
-:root{
+/* Open Sans */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/assets/fonts/open-sans-v40-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/assets/fonts/open-sans-italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('/assets/fonts/open-sans-700.woff2') format('woff2');
+}
+
+/* Poppins */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/assets/fonts/poppins-regular.woff2') format('woff2');
+}
+
+/* Inter */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/assets/fonts/inter-regular.woff2') format('woff2');
+}
+
+
+/* :root{
     --font-default:"Times New Roman",system-ui,-apple-system,"Tahoma",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --font-primary:"Times New Roman",sans-serif;
     --font-secondary:"Poppins",sans-serif
+} */
+
+:root {
+    --font-default: "Open Sans", sans-serif;
+    --font-primary: "Poppins", sans-serif;
+    --font-secondary: "Inter", sans-serif;
 }
 :root{
     --color-default:#0a0d13;
