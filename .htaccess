@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteCond %{HTTP_HOST} ^jmcargoindia.com [NC]
+RewriteRule ^(.*)$ http://www.jmcargoindia.com/$1 [L,R=301]
+</IfModule>
