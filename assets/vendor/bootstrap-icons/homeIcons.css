@@ -21,8 +21,8 @@
   }
   
   /* ✅ Only the Required Icons */
-  .bi-twitter::before { content: "\f619"; }
+  .bi-twitter::before { content: "\f5ef"; }
   .bi-facebook::before { content: "\f344"; }
-  .bi-instagram::before { content: "\f34e"; }
-  .bi-linkedin::before { content: "\f33b"; }
+  .bi-instagram::before { content: "\f437"; }
+  .bi-linkedin::before { content: "\f472"; }
   
